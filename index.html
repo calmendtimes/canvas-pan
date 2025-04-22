@@ -12,16 +12,16 @@
 
     <script src="utils.js"></script>
     <script src="canvas_pan.js"></script>
-    <script src="example.js"></script>
 
+    <script src="example.js"></script>
     <script>
         DEBUG = true
         const canvas_pan = new CanvasPan(document.getElementById('canvas'))
         canvas_pan.drawOnAnimationFrame()
 
         // example
-        wave.init()
-        canvas_pan.renderer.setCustomDrawFunction((ctx) => { wave.update(); wave.draw(ctx); })
+        //wave.init()
+        //canvas_pan.renderer.setCustomDrawFunction((ctx) => { wave.update(); wave.draw(ctx); })
     </script>
 
 </html>

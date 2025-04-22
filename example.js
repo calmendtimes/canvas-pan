@@ -46,9 +46,3 @@ const wave = {
         }
     }
 }
-
-// wave.init()
-// canvas_pan.renderer.setCustomDrawFunction((ctx) => {
-//     wave.update()
-//     wave.draw(ctx)
-// })
